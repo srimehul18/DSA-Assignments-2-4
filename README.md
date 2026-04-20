@@ -10,13 +10,20 @@ This repository contains implementations of core data structures and algorithms 
 - Queue (enqueue, dequeue, front)
 - Basic operations and time complexity
 
-### 2. Trees and Graphs
+### 2. Sorting Algorithms
+- Merge Sort
+- Quick Sort
+- Insertion Sort
+- Checks the performance of them using time library
+- Check on three different types of input- Sorted, Reverse Sorted and Random
+
+### 3. Trees and Graphs
 - Binary Search Tree (insert, search, delete, inorder traversal)
 - Graph using adjacency list
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
 
-### 3. Advanced Data Structures
+### 4. Advanced Data Structures
 - Hash Table with separate chaining
 - Collision handling using lists
 - Efficient key-value storage and retrieval
