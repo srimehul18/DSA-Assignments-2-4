@@ -1,26 +1,41 @@
-# Data Management Mini Toolkit (DMMT)
+# Sorting Performance Analyzer (SPA)
 
 ## Overview
-This project implements key non-linear and advanced data structures in Python, including Binary Search Tree (BST), Graph traversal (BFS and DFS), and a Hash Table with separate chaining.
+This project implements and compares three sorting algorithms: Insertion Sort, Merge Sort, and Quick Sort. The aim is to study their performance on different types of datasets and relate practical results with theoretical time complexity.
+
+## Algorithms Implemented
+- Insertion Sort
+- Merge Sort
+- Quick Sort (using random pivot and optimization)
 
 ## Features
+- Sorting algorithms implemented from scratch
+- Dataset generation for:
+  - Random data
+  - Sorted data
+  - Reverse sorted data
+- Performance measurement using execution time
+- Comparative analysis of results
 
-### 1. Binary Search Tree (BST)
-- Insert elements
-- Search elements
-- Delete nodes (leaf, one child, two children)
-- Inorder traversal (sorted output)
-
-### 2. Graph (Adjacency List)
-- Directed and weighted graph
-- Breadth First Search (BFS)
-- Depth First Search (DFS)
-
-### 3. Hash Table
-- Hash function using modulo operation
-- Collision handling using separate chaining
-- Insert, get, and delete operations
+## Dataset Sizes
+- 1000
+- 5000
+- 10000
 
 ## How to Run
-```bash
-python dmmt_toolkit.py
+1. Save the file as `spa_sorting.py`
+2. Open terminal in the project folder
+3. Run:
+   python spa_sorting.py
+
+## Output
+- Displays correctness check of sorting algorithms
+- Prints performance table with execution time (in milliseconds)
+
+## Observations
+- Insertion Sort performs well for small or nearly sorted data
+- Merge Sort gives consistent performance for all cases
+- Quick Sort is fast on average but depends on pivot selection
+
+## Conclusion
+The choice of sorting algorithm depends on input size and data type. Merge Sort is reliable, Quick Sort is efficient on average, and Insertion Sort is useful for small datasets.
