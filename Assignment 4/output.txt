@@ -1,0 +1,35 @@
+PS C:\Users\Mehul Srivastava\Desktop\DSA Assignment 4> python dmmt_toolkit.py
+BST TEST
+Inorder: [25, 35, 45, 55, 65, 75, 85]
+Search 25: True
+Search 90: False
+After deleting 25: [35, 45, 55, 65, 75, 85]
+After deleting 65: [35, 45, 55, 68, 75, 85]
+After deleting 55: [35, 45, 68, 75, 85]
+
+ GRAPH TEST
+A -> [('B', 2), ('C', 4)]
+B -> [('D', 7), ('E', 3)]
+C -> [('E', 1), ('F', 8)]
+D -> [('F', 5)]
+E -> [('D', 2), ('F', 6)]
+BFS from A:
+A B C D E F
+DFS from A:
+A B D F E C
+
+ HASH TABLE TEST
+Index 0 : []
+Index 1 : [[11, 110], [16, 160], [21, 210], [6, 60]]
+Index 2 : []
+Index 3 : [[13, 130]]
+Index 4 : []
+Get 11: 110
+Get 16: 160
+Get 6: 60
+After deleting 16:
+Index 0 : []
+Index 1 : [[11, 110], [21, 210], [6, 60]]
+Index 2 : []
+Index 3 : [[13, 130]]
+Index 4 : []
