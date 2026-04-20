@@ -1,0 +1,16 @@
+PS C:\Users\Mehul Srivastava\Desktop\DSA Assignment 3> python spa_sorting.py
+Correctness Test:
+Insertion: [1, 2, 5, 5, 6, 9]
+Merge: [1, 2, 5, 5, 6, 9]
+Quick: [1, 2, 5, 5, 6, 9]
+
+Size    Type            Insertion       Merge   Quick
+1000    Random          28.12           2.43    1.69
+1000    Sorted          0.15            1.78    1.65
+1000    Reverse         57.22           1.78    1.59
+5000    Random          916.36          15.45   9.51
+5000    Sorted          1.13            10.32   10.12
+5000    Reverse         1540.83         10.01   9.56
+10000   Random          3239.9          36.2    23.36
+10000   Sorted          2.34            29.68   25.39
+10000   Reverse         5939.38         21.99   21.71
